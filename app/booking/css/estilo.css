@@ -1,0 +1,148 @@
+body{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+body, html, div, ul, li, h1,h2,p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.container{
+	margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+}
+.clei{
+    background-color:#003580;
+    color:white;
+    padding:20px;
+}
+
+.opcoes{
+    margin-left: auto;
+    margin-top: 5px;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.menu-opcoes a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex-header{
+    display: flex;
+}
+.menu a{
+    padding: 11px 15px;
+}
+.menu{
+    margin-top: 30px;
+}
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
+    
+}
+.bk-icon{
+    fill: white;
+}
+
+.btn-resgpro{
+    border: 1px solid #fff!important;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.btn{
+    padding: 8px 16px;
+}
+
+.btn-inic,.btn-regist{
+    background-color: #fff;
+    border: 1px solid #0071c2;
+}
+.btn-regist:visited, .btn-inic:visited {
+    color: #0071c2;
+}
+
+.bed{
+    background-color: hsla(0,0%,100%,.1);
+    border-radius: 999px;
+    padding-left: 25px;
+    padding-right: 35px;
+    border: 1px solid #fff;
+}
+
+.icons:hover{
+    background-color: hsla(0,0%,100%,.1);
+    border-radius: 999px;
+    border: 1px solid transparent;
+}
+/*termino do header*/
+
+
+.sessao{
+    background-color: whitesmoke;
+    height: 200px;
+    padding-top: 40px;
+}
+.sessao h2{
+    font-weight: 600;
+    color: #333;
+}
+
+.sessao p{
+    font-size: 14px;
+    color: #333;
+}
+
+.formulario{
+    margin-top: 25px;
+}
+
+.formulario input{
+    border: none;
+    height: 50px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+fieldset{
+    color: #333;
+    border: 0;
+    background-color: #febb02;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 24px 0 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.localizacao{
+    width: 420px;
+}
+
+.check{
+    width: 230px;
+}
+
+.idade{
+    width: 300px;
+}
+
+.botao{
+    width: 170px;
+    background-color: #003580;
+    color: white;
+}
+
