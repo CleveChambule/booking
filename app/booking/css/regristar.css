@@ -1,0 +1,197 @@
+body{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+body, html, div, ul, li, h1,h2,p,h5,h4{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/*primeira parte*/
+.container{
+	margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+}
+
+.logo img{
+    width: 45%;
+}
+.clei{
+    background-color:#00224F;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+.opcoes{
+    margin-left: auto;
+    margin-top: 5px;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.menu-opcoes a{
+    text-decoration: none;
+    color: white;
+}
+.flex-header{
+    display: flex;
+}
+
+.btn-resgpro{
+    border: 1px solid #fff!important;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn-ajuda{
+    background-color: #0071c2;
+    border: 1px solid #0071c2;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+.flex-section{
+    display: flex;
+    margin-top: 70px;
+}
+
+.conteudo ul li{
+    list-style: none;
+   font-weight: normal;
+   font-size: 14px;
+   padding: 10px;
+}
+
+.conteudo{
+    background-color: white;
+    color: #333333;
+    margin-left: auto;
+    margin-right: 80px;
+    border-radius: 5px;
+    padding-bottom: 35px;
+}
+ 
+.regis{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.cont{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+.texto{
+    margin-left: auto;
+    margin-right: 95px;
+    margin-top: 100px;
+}
+
+.texto h1{
+    font-size: 45px;
+}
+
+.especial{
+    color: #0071c2;
+}
+
+.linha{
+    height: 1px;
+    background-color: #dedede;
+    padding: 0;
+}
+
+.conteudo p{
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.conteudo h5{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.come{
+    text-decoration: none;
+    background-color: #0071c2;
+    color: white;
+    margin-left: 20px;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linhab{
+    height: 1px;
+    background-color: #dedede;
+    margin-top: 30px;
+}
+
+.c4, .conteudo h5 a{
+    font-weight: 500;
+}
+
+.conteudo h5 a{
+    color: #0071c2;
+}
+
+.texto svg{
+    padding-top: 83px;
+    padding-left: 530px;
+}
+/*termino da primeira parte*/
+
+/*segunda parte*/
+.sessao{
+    margin-top: 60px;
+    color: #333333;
+}
+
+.sessao ul li{
+    list-style: none;
+   padding-bottom: 30px;
+   font-size: 16px;
+}
+
+.sessao h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sessao h4{
+    font-weight: normal;
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+
+.sessao svg{
+    margin-right: 10px;
+    
+}
+
+.sessao a{
+    font-size: 14px;
+    font-weight: 620;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding: 8px;
+}

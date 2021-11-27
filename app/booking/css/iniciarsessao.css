@@ -1,0 +1,153 @@
+body{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+body, html, div, ul, li, h1,h2,p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.container{
+	margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+}
+
+.logo{
+    font-size: 12px;
+}
+.clei{
+    background-color:#003580;
+    color:white;
+    padding:20px;
+}
+
+.opcoes{
+    margin-left: auto;
+    margin-top: 5px;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.menu-opcoes a{
+    text-decoration: none;
+    color: white;
+}
+.flex-header{
+    display: flex;
+}
+
+.sesao{
+    text-align: center;
+}
+
+.form-sessao label{
+    display:inline-flex;
+    margin-right: 227px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #383838;
+}
+
+.form-sessao form{
+    margin-top: 35px;
+}
+
+.form-sessao h1{
+    color: #383838;
+}
+.form-sessao{
+    margin-top: 20px;
+}
+
+.form-sessao input, .form-sessao button{
+    width: 27%;
+    height: 30px;
+}
+
+.form-sessao button{
+    margin-top: 15px;
+    height: 50px;
+    background-color: #0071c2;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.form-sessao button:hover{
+    background-color: #00487a;
+}
+
+input:focus{
+    border-color: #0071c2;
+    outline: #0071c2;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    width: 28%;
+    margin-left: 460px;
+}
+
+.flexb{
+    height: 1px;
+    background-color: #dedede;
+    width: 100%;  
+}
+
+.flextext{
+    white-space: nowrap;
+    margin: 0 8px 2px;
+    font-size: 14px;
+    color: #383838;
+}
+.sociais{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.sociais img{
+    width: 2%;
+    margin: 10px;
+}
+
+.socicon{
+    border: 1px solid #dedede;
+    padding: 10px;
+    padding-top: 35px;
+    margin: 10px;
+}
+
+.socicon:hover{
+    border: 1px solid #0071c2;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+}
+.linha{
+    height: 1px;
+    background-color: #dedede;
+    margin-left: 470px;
+    margin-right: 470px;
+}
+
+.para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.para a{
+    text-decoration: none;
+    color: #0071c2;
+}
+
+.para p{
+    font-size: 12px;
+    color: #383838;
+}
