@@ -14,6 +14,11 @@ body, html, div, ul, li, h1,h2,p{
 }
 
 .logo{
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
     font-size: 12px;
 }
 .clei{
